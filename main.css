@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(255, 255, 255, 0.744);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+div{
+    display: block;
+}
+.conatainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.header
+{
+    box-sizing: border-box;
+    text-align: center;
+}
+.news
+{
+    box-sizing: border-box;
+    display: flex;
+    flex: 3;
+        flex-grow: 3;
+        flex-shrink: 1;
+        flex-basis: 0%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.article
+{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.article big
+{
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1 rem;
+}
+.articlecontent 
+{
+    padding right: 1rem;
+    padding-left: 1rem;
+}
+.medium{
+display: flex;
+flex-wrap: wrap;
+flex-grow: 2;
+flex-shrink: 1;
+flex-basis: 0%;
+}
+.sidebar
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    flex-direction: column;
+    -ms-flex-align: end;
+}
+.pins
+{
+    background-color: white;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 100;
+    background-color: black;
+    color: white;
+}
+a
+{
+    color: white;
+}
